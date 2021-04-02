@@ -16,5 +16,5 @@ python3 train_tpu.py --input_file=../dataset/train.tfrecord --output_dir=../fine
 
 #### Reference
 
-https://github.com/imcaspar/gpt2-ml
+https://github.com/imcaspar/gpt2-ml \
 https://github.com/wind91725/gpt2-ml-finetune-
