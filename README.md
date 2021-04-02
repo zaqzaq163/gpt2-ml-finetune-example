@@ -12,7 +12,7 @@ cd dataset
 python3 prepare_data.py -input_fn ../data
 cd ../train
 python3 train_tpu.py --input_file=../dataset/train.tfrecord --output_dir=../finetune_model --init_checkpoint=../models/mega/model.ckpt-220000 --config_file=../configs/mega.json --train_batch_size=1 --num_train_steps=230000
-#请将train.tfrecord重命名为生成文件实际名称
+#请将train.tfrecord重命名为prepare_data生成文件实际名称
 ```
 
 #### Reference
